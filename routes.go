@@ -7,6 +7,6 @@ import (
 )
 
 func ping(c *gin.Context) {
-	time.Sleep(150 * time.Millisecond)
+	time.Sleep(50 * time.Millisecond)
 	c.JSON(http.StatusOK, gin.H{})
 }
